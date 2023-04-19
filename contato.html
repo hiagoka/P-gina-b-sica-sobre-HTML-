@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    </head>
+    <body>
+        <header>
+            <div style=" text-align: center; font-size: 1.5rem ;background-color: bisque; padding: 10px 0; margin: 0 2% 1%; height: 15rem;">
+                <h1>HTML <sup>Linguagem de Marcação de Hipertexto </sup></h1>
+                <h2>Tutoriais para iniciantes</h2>
+            </div>
+
+            <nav style="background-color: bisque;  margin: 0 2% 1%;">
+                <ul style="list-style: none; display: flex; flex-direction: row; padding: 1%; justify-content: space-between; ">
+                    <li> <a href="index.html#inicio" style="text-decoration:none; color: black;"> Inicio </a> </li>
+                    <li> <a href="index.html#html" style="text-decoration:none; color: black;"> HTML </a> </li>
+                    <li> <a href="index.html#tabela" style="text-decoration:none; color: black;"> Tabela e Listas </a> </li>
+                    <li> <a href="index.html#sobre" style="text-decoration:none; color: black;"> Sobre HTML, JS e CSS </a> </li>
+                    <li> <a href="index.html#links" style="text-decoration:none; color: black;"> Links </a> </li>
+                    <li> <a href="contato.html" style="text-decoration:none; color: black;"> Contato </a> </li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <form action="obrigado.html" method="get" style="margin: 2%">
+                <label>Nome: </label>
+                <input type="text" name=" user_name" required><br>
+
+                <label>E-mail: </label>
+                <input type="email" name=" user_email" placeholder="seuemail@provedor.com" required><br>
+
+                <label>Assunto: </label>
+                <select name="assunto" required>
+                    <option value="reclamacao"> Reclamaçao</option>
+                    <option value="sugestao" selected> Sugestão</option>
+                    <option value="contato"> Falar com assistente</option>
+                </select><br>
+
+                <label>Mensagem: </label>
+                <textarea name="mensagem" required></textarea><br>
+
+                <input type="checkbox" value="concordo com os termos" required>
+                <label">Concordo com os termos de privacidade do site</label><br>
+                
+                <input type="submit" value="Enviar">
+            </form>
+        </main> 
+        <footer>
+            <div style="display: flex; flex-direction: row; margin: 0 2%; align-items: center; " id="links">
+                <ul style="background-color: whitesmoke; height: 12rem;width: 25%;"> 
+                    <h3>Sobre</h3>
+                    <li> <a href="index.html#inicio" style="text-decoration:none; color: black;"> Inicio </a></li>
+                    <li>Política de privacidade</li>
+                    <li> <a href="contato.html" style="text-decoration:none; color: black;"> Contato </a> </li>
+                </ul>
+                <ul style="background-color: grey; height: 12rem;width: 25%;"> 
+                    <h3>Referências</h3>
+                    <li> <a href="https://www.hostinger.com.br/tutoriais/o-que-e-css-guia-basico-de-css" style="text-decoration:none; color: black;"> CSS</a></li>
+                    <li> <a href="https://blog.somostera.com/desenvolvimento-web/html-o-que-e?utm_term=&utm_campaign=ad-cpa-tofu-insti_aniver-6a&utm_source=adwords&utm_medium=ppc&hsa_acc=9763069323&hsa_cam=17892248829&hsa_grp=&hsa_ad=&hsa_src=x&hsa_tgt=&hsa_kw=&hsa_mt=&hsa_net=adwords&hsa_ver=3&gad=1&gclid=CjwKCAjwov6hBhBsEiwAvrvN6GBjth71xFXf5K1q3cF4aUi7mE1l8mOnYS53kRqwbfQ_y3AfFTH8zxoCJaQQAvD_BwE" style="text-decoration:none; color: black;"> HTML</a></li>
+                    <li> <a href="https://pt.wikipedia.org/wiki/JavaScript" style="text-decoration:none; color: black;"> JavaScript </a></li>
+                </ul>
+                    
+                <ul style="background-color: whitesmoke; height: 12rem;width: 25%;"> 
+                    <h3>Tutoriais</h3>
+                    <li>Design</li>
+                    <li>Marketing</li>
+                    <li>Programação</li>
+                    <li>Tutoriais</li>
+                </ul>
+                <ul style="background-color: grey; height: 12rem;width: 25%;"> 
+                    <h3>Outros links</h3>
+                    <li> <a href="https://www.alura.com.br/artigos/html-css-e-js-definicoes?gclid=EAIaIQobChMIlc6Vpd62_gIVRRCtBh1y0gUjEAAYASAAEgIGl_D_BwE" style="text-decoration:none; color: black;"> Diferença entre CSS, HTML e JS </a> </li>
+                    <li> <a href="https://www.hostmidia.com.br/blog/protocolos-de-internet/" style="text-decoration:none; color: black;"> Protocolos da Web </a> </li>
+                    <li> <a href="https://www.alura.com.br/artigos/o-que-e-html-suas-tags-parte-1-estrutura-basica?gclid=EAIaIQobChMIsYqWouK2_gIV1m1vBB2qoAffEAAYASAAEgIF9PD_BwE" style="text-decoration:none; color: black;"> Tipos de tag HTML</a></li>
+                </ul>
+                        
+                </p>
+            </div>
+            <div style="text-align: center;"> HiagoKalil <span> &#169; Direitos reservados </span> </div>
+        </footer>
+    </body>
+</html>
